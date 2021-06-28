@@ -14,3 +14,6 @@
 
 ## BSheep Finance Audit link
 https://solidity.finance/audits/BSheep/
+
+## BSheep Finance Whitepaper
+https://bsheep.finance/Assets/Files/BSHEEP-Whitepaper_v2.pdf
