@@ -1,0 +1,345 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+/*background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;*/
+color: #FFC312;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 430px;
+margin-top: 360px;
+margin-bottom: auto;
+width: 550px;
+border-radius:5%;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 30px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+top: -45px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.input-group-prepend span{
+width: 25px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+.container-nav{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* nav-barbar section */
+
+.nav-bar{
+    width: 100%;
+    height: 65px;
+    
+    line-height: 65px;
+    text-align: center;
+    background-color: #3a3b94;
+}
+
+.nav-bar div.logo{
+    width: 180px;
+    height: 10px;
+    position: absolute;
+}
+
+.nav-bar div.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.nav-bar div.logo a:hover {
+    color: #c0c0c0;
+}
+
+.nav-bar div.main_list{
+    width: 900px;
+    height: 65px;
+    float: right;
+}
+
+.nav-bar div.main_list ul{
+    width:100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar div.main_list ul li{
+    height: 65px;
+}
+
+.nav-bar div.main_list ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+.nav-bar div.main_list ul li a:hover{
+    color: #c0c0c0;
+}
+
+.nav-bar div.media_button {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    display: none;
+}
+
+.nav-bar div.media_button button.main_media_button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-bar div.media_button button.main_media_button span{
+    width: 98%;
+    height: 1px;
+    display: block;
+    background-color: #fff;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.nav-bar div.media_button button.main_media_button:hover span:nth-of-type(1){
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+    background-color: #c0c0c0;
+}
+
+.nav-bar div.media_button button.main_media_button:hover span:nth-of-type(2){
+    transform: rotateY(180deg);
+    transition: all 0.4s;
+    background-color: #c0c0c0;
+}
+
+.nav-bar div.media_button button.main_media_button:hover span:nth-of-type(3){
+    transform: rotateY(180deg);
+    transition: all 0.3s;
+    background-color: #c0c0c0;
+}
+
+.nav-bar div.media_button button.active span:nth-of-type(1) {
+    transform: rotate3d(0, 0, 1, 45deg);
+    position: absolute;
+    margin: 0;
+}
+
+.nav-bar div.media_button button.active span:nth-of-type(2) {
+    display: none;
+}
+
+.nav-bar div.media_button button.active span:nth-of-type(3) {
+    transform: rotate3d(0, 0, 1, -45deg);
+    position: absolute;
+    margin: 0;
+}
+
+.nav-bar div.media_button button.active:hover span:nth-of-type(1) {
+    transform: rotate3d(0, 0, 1, 20deg);
+}
+
+.nav-bar div.media_button button.active:hover span:nth-of-type(3) {
+    transform: rotate3d(0, 0, 1, -20deg);
+}
+
+/* Home section */
+.home {
+  /*background-color: #3a3b94;*/
+  background-image: url(../Assets/BSheep/picture/star-01.png), linear-gradient(#3a3b94, #8b7ed3);
+  /*background-repeat: repeat, no-repeat;*/
+  /*background-image:url(../Assets/BSheep/picture/BGn1-01.png); 
+  
+  background-size: cover;max-width: 100%;
+  height: 100vh;*/
+}
+.home-nav{
+    width: 90%;
+    height: 100vh;
+    background-color: #ddd;
+}
+.k-logo-1{
+	height:10rem; 
+	width:auto; 
+	margin: auto;
+	padding-left:20rem;
+}
+.k-page-1{
+	margin-top:4rem;
+	margin-left: 0rem;
+}
+/* Medai qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .container-nav{
+        margin: 0;
+    }
+    .k-page-1{
+		margin-top:4rem;
+		margin-left: 0;
+	}
+	.k-logo-1{
+	height:10rem; 
+	width:auto; 
+	margin: auto;
+	padding-left:4rem;
+	}
+}
+@media screen and (max-width:376px) {
+	.k-logo-1{
+		height:10rem; 
+		width:auto; 
+		margin: auto;
+		padding-left:9rem;
+	}
+}
+@media screen and (min-width: 376px) and (max-width: 769px) {
+	.k-logo-1{
+		height:10rem; 
+		width:auto; 
+		margin: auto;
+		padding-left:23rem;
+	}
+}
+
+@media screen and (max-width:768px) {
+    
+    .container-nav{
+        margin: 0;
+    }
+   
+    .k-page-1{
+		margin-top:0rem;
+		margin-left: 0;
+	}
+    .nav-bar div.logo{
+        margin: auto;
+    }
+    
+    .nav-bar div.main_list{
+        width: 100%;
+        margin-top: 65px;
+        padding-right: 3rem;
+        height: 0px;
+        overflow: hidden;
+    }
+    
+    .nav-bar div.show_list{
+        height: 100px;
+    }
+    
+    .nav-bar div.main_list ul{
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        top: 80px;
+        right: 0;
+        left: 0;
+    }
+    
+    .nav-bar div.main_list ul li{
+        width: 100%;
+        height: 40px;
+        background-color:rgba(0,0,255,0.8);
+    }
+    
+    .nav-bar div.main_list ul li a{
+      text-align: center;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        display: table;
+    }
+    
+    .nav-bar div.media_button{
+        display: block;
+    }
+}
